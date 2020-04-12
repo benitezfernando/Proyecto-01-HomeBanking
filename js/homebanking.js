@@ -1,6 +1,6 @@
 //Declaración de variables
 
-var nombreUsuario = "Sosa Juan";
+var nombreUsuario = "Benitez Fernando";
 
 var saldoCuenta = 500;
 
