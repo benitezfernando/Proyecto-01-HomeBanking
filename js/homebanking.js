@@ -1,4 +1,4 @@
-//Declaración de variables
+
 
 var nombreUsuario = "Benitez Fernando";
 
@@ -18,7 +18,7 @@ var cuentaAmigaDos=7654321;
 
 var codigoSeg="0000";
 
-//Ejecución de las funciones que actualizan los valores de las variables en el HTML.
+
 window.onload = function() {
   iniciarSesion();
   
@@ -26,7 +26,7 @@ window.onload = function() {
   actualizarLimiteEnPantalla();
 };
 
-//Funciones que tenes que completar
+
 function cambiarLimiteDeExtraccion() {
   var nuevoLimite = prompt("Ingrese el nuevo limite de extraccion:");
   nuevoLimite = parseInt(nuevoLimite);
@@ -208,7 +208,7 @@ function iniciarSesion() {
 }
 }
 
-//Funciones que actualizan el valor de las variables en el HTML
+
 function cargarNombreEnPantalla() {
   document.getElementById("nombre").innerHTML = "Bienvenido/a " + nombreUsuario;
 }
